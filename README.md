@@ -134,4 +134,5 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 ```
 5. In the Host, refactor the entry point to load asynchronously
+> Rename index.js to bootstrap.js and creates a new index.js with import('./bootstrap')
 6. In the Host, import whatever files you need from the remote.
